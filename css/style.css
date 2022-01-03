@@ -1,0 +1,31 @@
+.block {
+    border: 10px solid #9a396f;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #f6d883;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    font-size: 21px;
+    line-height: 30px;
+    text-decoration: wavy;
+}
+:hover.block{
+    color: blue;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+   
+}
+:hover p{
+    background-color: brown;
+    transition: 2s;
+}
